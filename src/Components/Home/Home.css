@@ -1,0 +1,157 @@
+.home-container {
+    background-image: url('../../assets/background.jpeg');
+    background-size: cover; /* Use cover to cover the entire container */
+    background-repeat: no-repeat; /* Prevent the image from repeating */
+    background-position: center; /* Center the background image */
+    /* height: 100vh;  */
+    color: #FFFFFF;
+    ;
+}
+
+
+.Nav-lists{
+    margin: 0px;
+    display: flex;
+    gap: 33px;
+    align-items: center;
+    margin-left: 777px;
+
+}
+
+.button{
+     border: 1px solid #015AF2;
+     width: 179px;
+     text-align: center;
+}
+
+
+.but-call p{
+    font-family: Kanit;
+font-size: 16px;
+font-weight: 300;
+line-height: 24px;
+text-align: center;
+color: #FFFFFF;
+
+}
+
+.Navbar{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 10px;
+}
+
+.lists {
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    gap: 44px;
+}
+
+.lists li{
+    font-family: Kanit;
+font-size: 14px;
+font-weight: 300;
+line-height: 26px;
+text-align: right;
+color: #FFFFFF;
+
+}
+
+.sub-container{
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+    gap: 80px;
+}
+
+.home-text{
+    width: 536.73px;
+    height: 204px;
+
+}
+
+.solution{
+    font-family: Poppins;
+font-size: 18px;
+font-weight: 600;
+line-height: 18px;
+text-align: left;
+
+}
+
+.simplify h2{
+font-family: Kanit;
+font-size: 84px;
+font-weight: 700;
+text-align: left;
+line-height: 100px;
+
+}
+
+.lorem{
+font-family: Poppins;
+font-size: 14px;
+font-weight: 400;
+width: 558px;
+
+}
+
+.details{
+    font-family: kanit;
+    font-size: 15px;
+    font-weight: 300;
+    border: 1px solid #015AF2;
+    border-radius: 4px;
+    width: 482px;
+    text-align:left;
+    padding-left: 50px;
+    margin-top: 60px;
+    background: #015AF2;
+
+}
+.image img{
+    height: 450px;
+    width: 367px;
+    padding-top: 0px;
+    margin-left: 20px;
+    margin-top: 20px;
+
+}
+
+
+ @media screen and (max-width: 768px) {
+   
+}
+
+
+@media screen and (max-width: 480px) {
+    
+
+
+
+
+    .sub-container{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 100%;
+    }
+    
+
+    .lorem p{
+        width: 293px;
+    }
+
+    .image img{
+        display: flex;
+        flex-direction: column;
+        justify-content:center;
+        align-items: center;
+        
+        
+    }
+} 
+
+
